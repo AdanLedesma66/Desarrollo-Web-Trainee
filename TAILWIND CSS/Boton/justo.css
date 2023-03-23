@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    background-image: url(MicrosoftTeams-image.png);
+    background-size: cover;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.xd{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.photo{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+.boton-vuelta{
+    background-color: #0077cc; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espacio interno */
+    border-radius: 10px; /* Borde redondeado */
+    border: none; /* Quita el borde */
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* Sombra */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+.boton-vuelta:hover {
+    background-color: #0063b3;
+  }

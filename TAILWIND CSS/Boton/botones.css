@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, 
+    #243b55
+    );
+    height: 100vh;
+}
+button{
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem; /* Tamaño de fuente */
+}
+
+.boton-justo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.boton-ida, .boton-fondo, .boton-rohoma, .boton-login{
+  background-color: #0063b3;
+    color: #fff; /* Color de texto */
+    padding: 10px 20px; /* Espacio interno */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* Sombra */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+.boton-ida:hover,
+.boton-fondo:hover,
+.boton-rohoma:hover {
+    /* Estilos del botón cuando se pasa el cursor por encima */
+    background-color: #00559b;
+  }
+
+.fondo{
+    position: absolute;
+    top: 38%;
+    left: 45.8%;
+    transform: translate(-50% -50%);
+}
+.titulo h1{
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.titulo{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+
+.rohoma{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,85 @@
+/* Seleccionar el elemento body y establecer algunos estilos globales */
+body {
+    background-color: #333;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Seleccionar el elemento h2 y establecer estilos para el título del formulario */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Seleccionar el elemento .login-box y establecer estilos para el contenedor del formulario */
+.login-box {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Seleccionar el elemento form y establecer algunos estilos generales */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Seleccionar el elemento .user-box y establecer estilos para los campos de entrada */
+.user-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #999;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+}
+
+/* Seleccionar el elemento .user-box:focus-within y establecer estilos para los campos de entrada cuando están enfocados */
+.user-box input:focus + label,
+.user-box input:focus + label {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #333;
+}
+
+
+.user-box input:focus {
+    outline: none;
+    border-bottom: 2px solid #333;
+}
+
+
+/* Seleccionar el elemento button y establecer estilos para el botón de inicio de sesión */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+button:hover {
+    background-color: #555;
+}
